@@ -1,5 +1,5 @@
+import 'package:crypto_exercice/view/crypto_list_screen.dart';
 import 'package:flutter/material.dart';
-import 'views/crypto_list_screen.dart';
 
 void main() {
   runApp(const MyApp());

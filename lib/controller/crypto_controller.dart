@@ -1,7 +1,7 @@
 import 'dart:convert';
+import 'package:crypto_exercice/model/crypto_model.dart';
 import 'package:crypto_exercice/utils/app_constant.dart';
 import 'package:http/http.dart' as http;
-import '../models/crypto_model.dart';
 
 class CryptoController {
   Future<List<CryptoModel>> fetchCryptos() async {

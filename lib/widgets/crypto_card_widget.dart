@@ -1,5 +1,6 @@
+import 'package:crypto_exercice/model/crypto_model.dart';
 import 'package:flutter/material.dart';
-import '../models/crypto_model.dart';
+
 
 class CryptoCardWidget extends StatelessWidget {
   final CryptoModel cryptoModel;

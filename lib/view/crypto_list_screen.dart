@@ -1,7 +1,9 @@
+import 'package:crypto_exercice/controller/crypto_controller.dart';
+import 'package:crypto_exercice/model/crypto_model.dart';
+import 'package:crypto_exercice/widgets/crypto_card_widget.dart';
 import 'package:flutter/material.dart';
-import '../controllers/crypto_controller.dart';
-import '../models/crypto_model.dart';
-import '../widgets/crypto_card_widget.dart';
+
+
 
 class CryptoListScreen extends StatefulWidget {
   const CryptoListScreen({super.key});
