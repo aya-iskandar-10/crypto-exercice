@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "486844805940",
+    "project_id": "new-project-78cd3",
+    "storage_bucket": "new-project-78cd3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486844805940:android:6519cf6ea126df9c71ab61",
+        "android_client_info": {
+          "package_name": "com.example.crypto_exercice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCglzdzIH6xfAth1HY-RByzSvbJG-m-ykQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

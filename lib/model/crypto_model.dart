@@ -1,10 +1,12 @@
 class CryptoModel {
+  final String id;
   final String name;
   final String symbol;
   final String image;
   final double currentPrice;
 
   const CryptoModel({
+    required this.id,
     required this.name,
     required this.symbol,
     required this.image,
@@ -13,6 +15,7 @@ class CryptoModel {
 
   factory CryptoModel.fromJson(Map<String, dynamic> json) {
     return CryptoModel(
+      id: json['id'],
       name: json['name'],
       symbol: json['symbol'],
       image: json['image'],
